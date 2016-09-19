@@ -61,6 +61,10 @@ angular
 		  url: '/teacher',
 		  templateUrl: 'views/scm_app/teachers/home.html'
 	  })
+    .state('academics', {
+      url: '/academics',
+      templateUrl: 'views/scp_app/academics.html'
+    })
 	  
 	  /* partials for the scm app */
 	  .state('messages', {

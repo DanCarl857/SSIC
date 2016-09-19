@@ -1,7 +1,40 @@
 body{
 	font-family: GillSans, Calibri, Trebuchet, sans-serif;
+	background-color: #fffff0; 
+	background:url('images/background1.jpg');
 }
 
+h1 {
+	color: #191970; font-size: 250%; text-align: justify;
+	font-family: Serif;	font-weight: 900;
+}
+h2{
+	color: #191970; font-size: 200%; text-align: center;
+	font-family: Serif;
+}
+h3{
+	color: #990000; font-size: 200%; text-align: center;
+	font-family: Serif;
+}
+h4 {
+	color: #D00000 ; font-size: 200%; text-align: right;
+	font-family: Serif;
+	font-style: italic;
+}
+h5{
+	color: #280000;
+	font-size: 150%;
+	font-family: Serif;
+}
+
+nav{
+	background-color: #191970;
+	width: 100%;
+}
+button{
+	color: #ffffff;
+}
+navi
 /* label focus color */
 .input-field label {
 	color: rgba(0, 0, 0, 0.4) !important;
