@@ -2,7 +2,7 @@
 /*global $ */
 
 angular.module('ssicRApp')
-	.controller('supportCtrl', [function(){
+	.controller('academicsCtrl', [function(){
 
 		$(document).ready(function(){
            $('.slider').slider({

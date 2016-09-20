@@ -18,6 +18,7 @@ angular
         controller: 'MainCtrl'
       })
       .state('about', {
+        url: '/about',
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
@@ -51,6 +52,11 @@ angular
         templateUrl: 'views/contact.html',
         controller: 'contactCtrl'
       })
+      .state('academics', {
+        url: '/academics',
+        templateUrl: 'views/academics.html',
+        controller: 'academicsCtrl'
+      })
 	  
 	  /* scm app routes */
 	  .state('login', {
@@ -61,10 +67,6 @@ angular
 		  url: '/teacher',
 		  templateUrl: 'views/scm_app/teachers/home.html'
 	  })
-    .state('academics', {
-      url: '/academics',
-      templateUrl: 'views/scp_app/academics.html'
-    })
 	  
 	  /* partials for the scm app */
 	  .state('messages', {
